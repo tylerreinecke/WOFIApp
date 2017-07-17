@@ -9,13 +9,122 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.league.wofiapp.WOFIApp">
 
-    <ListView
+    <EditText
+        android:id="@+id/editText4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentEnd="false"
-        android:choiceMode="singleChoice" />
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Map of All Trails"
+        android:textAlignment="center" />
 
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText12"
+        android:layout_alignStart="@+id/editText12"
+        android:layout_below="@+id/editText12"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="About Us"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText11"
+        android:layout_alignStart="@+id/editText11"
+        android:layout_below="@+id/editText11"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="The Art Collection"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText10"
+        android:layout_alignStart="@+id/editText10"
+        android:layout_below="@+id/editText10"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Spanish Landing"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText9"
+        android:layout_alignStart="@+id/editText9"
+        android:layout_below="@+id/editText9"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="North Embarcadero"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText8"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cornado Island"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText7"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Shelter Island"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText6"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText6"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Imperial Beach"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Chula Vista"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText4"
+        android:layout_alignStart="@+id/editText4"
+        android:layout_below="@+id/editText4"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="National City"
+        android:textAlignment="center" />
 </RelativeLayout>
