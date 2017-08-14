@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
     <head>
-    
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function showDiv(hide, show) {
+                document.getElementById(hide).style.display = "none";
+                document.getElementById(show).style.display = "";
+            }
+        </script>
+
     </head>
     <body>
-        <p>chula vista</p>
+        <div>
+            <center>
+                <div class="page-header">
+                    <h1 style='color: white; margin-top:-15px; margin-bottom: -2px;'>Chula Vista</h1>
+                </div>
+                <div class="col-lg-1 col-offset-2 centered" style='background-color: #D3D3D3; margin-bottom: 10px; padding: 15px' id='first-appear'>
+                    <button type="button" class="btn btn-primary btn-lg" >Start Trail!</button><br>
+                    <button type="button" class="btn btn-primary btn-lg" >View Each Stop</button>
+                </div>
+            </center>
+        </div>
+        <div  class="stop-choices" style='background-color: #D3D3D3; margin-bottom: 10px; padding: 15px' id='spots'>
+            <center>
+                <h1>Sublocations</h1>
+                <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'wind-oars')">Wind Oars</button><br>
+                <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'to-remember-me')">To Remember Me</button><br>
+                <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'the-fisherman')">The Fisherman</button><br>
+                <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'sd-synergy')">San Diego Synergy</button><br>
+                <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'powering-the-arts')">Powering The Arts</button><br>
+                <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'konoids')">Konoids</button><br>
+            </center>
+        </div>
+        
+        <div id='wind-oars' style="display:none">
+            <p>hi</p>
+        </div>
+        <div id='to-remember-me' style="display:none">
+            <p>hi</p>
+        </div>
+        <div id='the-fisherman' style="display:none">
+            <p>hi</p>
+        </div>
+        <div id='sd-synergy' style="display:none">
+            <p>hi</p>
+        </div>
+        <div id='powering-the-arts' style="display:none">
+            <p>hi</p>
+        </div>
+        <div id='konoids' style="display:none">
+            <p>hi</p>
+        </div>
+        
     </body>
 </html>
