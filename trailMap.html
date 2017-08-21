@@ -24,10 +24,26 @@
       var map;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 8
+          center: {lat: 32.7157, lng: -117.1611},
+          zoom: 11
         });
       }
+        
+    /*
+     function addMarker(location) {
+        marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+    }
+
+    // Testing the addMarker function
+    function TestMarker() {
+           testLocation = new google.maps.LatLng(32.668685, -117.098337);
+           addMarker(testLocation);
+    }
+    */
+        
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCtx0RBugT2ZK2ulgJbJO2kDJrbDx8DXlw&callback=initMap"
     async defer></script>
