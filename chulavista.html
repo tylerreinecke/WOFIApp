@@ -22,13 +22,13 @@
                 <div class="page-header">
                     <h1 style='color: white; margin-top:-15px; margin-bottom: -2px;'>Chula Vista</h1>
                 </div>
-                <div class="col-lg-1 col-offset-2 centered" style='background-color: #D3D3D3; margin-bottom: 10px; padding: 15px' id='first-appear'>
+                <div class="col-lg-1 col-offset-2 centered" style='background-color: #D3D3D3; margin-bottom: 10px; padding: 15px' id='chulaHome'>
                     <button type="button" class="btn btn-primary btn-lg" >Start Trail!</button><br>
-                    <button type="button" class="btn btn-primary btn-lg" >View Each Stop</button>
+                    <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('chulaHome', 'spots')">View Each Stop</button>
                 </div>
             </center>
         </div>
-        <div  class="stop-choices" style='background-color: #D3D3D3; margin-bottom: 10px; padding: 15px' id='spots'>
+        <div  class="stop-choices" style='display: none; background-color: #D3D3D3; margin-bottom: 10px; padding: 15px' id='spots'>
             <center>
                 <h1>Sublocations</h1>
                 <button type="button" class="btn btn-primary btn-lg" onclick="showDiv('spots', 'wind-oars')">Wind Oars</button><br>
